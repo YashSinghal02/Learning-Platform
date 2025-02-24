@@ -1,0 +1,149 @@
+@media only screen and (min-width:100px) {
+    .sidebar
+    {
+        background-color: rgba(255, 255, 255, 0.15)!important;
+        backdrop-filter: blur(10px);
+    }
+}
+
+@media only screen and (min-width:350px) {
+    .sidebar
+    {
+        background-color: rgba(255, 255, 255, 0.15)!important;
+        backdrop-filter: blur(10px);
+    }
+}
+@media only screen and (min-width:350px) {
+  
+}
+@media only screen and (min-width:992px) 
+{
+    .box
+    {
+        width: 210px;
+        height: 235px;
+    }
+    .flip
+    {
+      width: 100%!important;
+      height: 100%!important;
+    }
+        .flip-card {
+            background-color: transparent;
+            width: 202px !important;
+            height: 460px !important;
+            perspective: 1000px;
+            font-family: sans-serif;
+            margin: 0 auto;
+        }
+        .book
+        {
+            width: 235px;
+            height: 245px;
+        }
+        .cardd-container
+        {
+            width: 232px;
+    height: 270px;
+        }
+}
+@media only screen and (min-width:1100px) 
+{
+  
+    .box
+    {
+        width: 222px;
+        height: 230px; 
+    }
+    .flip
+    {
+      width: 100%!important;
+      height: 100%!important;
+    }
+        .flip-card {
+            background-color: transparent;
+            width: 220px !important;
+            height: 460px !important;
+            perspective: 1000px;
+            font-family: sans-serif;
+            margin: 0 auto;
+        }
+        .book
+    {
+        width: 260px;
+        height: 245px;
+    }
+    .cardd-container
+    {
+        width: 260px;
+        height: 280px;
+    }
+}
+@media only screen and (min-width:1200px) 
+{
+ 
+    .box
+    {
+        width: 240px;
+        height: 260px;
+    }
+    .flip
+    {
+      width: 100%!important;
+      height: 100%!important;
+    }
+        .flip-card {
+            background-color: transparent;
+            width: 235px !important;
+            height: 460px !important;
+            perspective: 1000px;
+            font-family: sans-serif;
+            margin: 0 auto;
+        }
+        .book
+        {
+            width: 287px;
+            height: 276px;
+            box-shadow: 1px 1px 12px #8383831f;
+        }
+        .cardd-container
+    {
+        width: 290px;
+        height: 300px;
+    }
+
+}
+@media only screen and (min-width:1300px) 
+{
+ 
+    .box
+    {
+        width: 260px;
+        height: 280px;
+    }
+    .flip
+    {
+      width: 100%!important;
+      height: 100%!important;
+    }
+        .flip-card {
+            background-color: transparent;
+            width:260px !important;
+            height: 460px !important;
+            perspective: 1000px;
+            font-family: sans-serif;
+            margin: 0 auto;
+        }
+        .book
+        {
+            width: 310px;
+            height: 300px;
+            box-shadow: 1px 1px 12px #8787871f;
+        }
+        .cardd-container
+        {
+            width: 310px;
+            height: 300px;
+        }
+
+}

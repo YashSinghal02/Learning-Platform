@@ -1,0 +1,906 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="responsiveleran.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body class="vh-100 ">
+       <!-- nav -->
+       <nav class="navbar navbar-expand-xl   fixed-top">
+        <div class="container-fluid">
+          <!-- logo -->
+          <a class="navbar-brand text-white" href="#"><img src="images-removebg-preview.png" alt="" width="60px"><b>Eager To Learn</b></a>
+                <!--toggle btn  -->
+          <button class="navbar-toggler " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <!-- <span class="navbar-toggler-icon"></span> -->
+            <i class="fa-solid fa-bars toggler-icon" style="color: #ffffff;"></i>
+          </button>
+          <!-- sidbar -->
+          <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <!-- sidebar header -->
+            <div class="offcanvas-header text-white border-bottom ">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img src="images-removebg-preview.png" alt="" width="80px"><b>Eager To Learn</b></h5>
+              <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+              <!-- sidebar body -->
+            <div class="offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-0 ">
+              <ul class="navbar-nav justify-content-center  align-items-center fs-5 flex-grow-1 ">
+                <li class="nav-item mx-2">
+                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                
+    
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Courses
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Web Devlopement</a></li>
+                      <li><a class="dropdown-item" href="#">Data Science</a></li>
+                      <li><a class="dropdown-item" href="#">Andriod Devlopement</a></li>
+                      <li><a class="dropdown-item" href="#">Digital Marketing</a></li>
+                      <li><a class="dropdown-item" href="#">Graphic Designing</a></li>
+                      <li><a class="dropdown-item" href="#">DataBase Design & Devlopement</a></li>
+                      <li><a class="dropdown-item" href="#">Software Testing</a></li>
+                      <li><a class="dropdown-item" href="#">Software Devlopement Tools</a></li>
+                      <li><a class="dropdown-item" href="#">No - Code Devlopement</a></li>
+                      <li><a class="dropdown-item" href="#">Internet Of Things (IOT)</a></li>
+      
+                    </ul>
+                  </li>
+    
+    
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 Languages
+                    </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">English</a></li>
+                    <li><a class="dropdown-item" href="#">Hindi</a></li>
+                    <li><a class="dropdown-item" href="#">Tamil</a></li>
+                    <li><a class="dropdown-item" href="#">Bangoli</a></li>
+                    <li><a class="dropdown-item" href="#">French</a></li>
+                    <li><a class="dropdown-item" href="#">German</a></li>
+                  </ul>
+                  </li>
+    
+                <li class="nav-item mx-2">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item mx-2">
+                  <a class="nav-link" href="service.html">Services</a>
+                </li>
+                <li class="nav-item mx-2">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+           
+              </ul>
+               
+              </ul>
+              
+             
+              <!-- login/ Sign up -->
+              <!-- <div class="d-flex flex-column  justify-content-center align-items-center gap-3">
+                <a href="#" class="login text-white text-decoration-none px-3 py-1 rounded-4">Login</a>
+                <a href="#" class="sign text-white text-decoration-none px-3 py-1 rounded-4" style="background-color: #f94ca4;">Sign Up</a>
+              </div> -->
+    
+              <!-- <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form> -->
+    
+    
+    
+    
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- nav -->
+  <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="1686944934634.jpeg" class="d-block w-100 " alt="..." width="100%" height="730px">
+        <div class="carousel-caption d-none d-md-block">
+            <div class="back">
+                <h5 class=" fs-2 ">Self-paced learning allows flexibility </h5>
+                <p class="text-white fs-5 fw-normal">One of the biggest advantages of online learning is that it offers flexibility. Courses are self-paced, which means users can complete assignments within a specific time frame. </p>
+               </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="photo-1524749292158-7540c2494485.avif" class="d-block w-100" alt="..."width="100%" height="730px">
+        <div class="carousel-caption d-none d-md-block">
+            <div class="back">
+                <h5 class=" fs-2 "> Builds critical thinking skills</h5>
+                <p class="text-white fs-5 fw-normal">People can better understand their goals and motivations when they think critically. Learning online can help learners develop their critical thinking skills. </p>
+               </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="photo-1522071820081-009f0129c71c.avif" class="d-block w-100" alt="..."width="100%" height="730px">
+        <div class="carousel-caption d-none d-md-block">
+            <div class="back">
+                <h5 class=" fs-2 "> Improves communication and collaboration </h5>
+                <p class="text-white fs-5 fw-normal">Virtual communication and collaboration skills are essential in today’s workplace. Seventy-five percent of employers rank teamwork and collaboration as “very important,” according to Queens University of Charlotte data. </p>
+               </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+<!-- sec3 turn -->
+
+<div class="container mt-5 pt-4 text-center">
+  <h2 class="fw-bolder">Bestseller Courses</h2>
+  <div class="line rounded-circle mx-auto" style="width: 170px ;height:5px;"></div>
+</div>
+
+<div class="container-fluid mt-5 pt-4">
+  <div class="row text-center">
+      <div class="col col-12 col-sm-12 col-md-6 col-lg-3 g-3">
+
+          <div class="flip-card">
+              <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                 
+                   <div class="card flip" >
+                    <img src="programming languages.png" class="card-img-top" alt="..." height="300px">
+                    <div class="card-body text-start">
+                      <h5 class="card-title">Programming Languages</h5>
+                      <p class="card-text"><b>Skills You Gain:</b>Computer Programming,Programming Priciples,Alogrithms,Critical Thinking</p>
+                     <p><i class="fa-solid fa-star" style="color: #FFD43B;"></i> 4.8 (2k reviews)</p>
+                     <p>Intermediate Course 3-5 months </p>
+                    </div>
+                  </div>
+                   <!-- card -->
+                  </div>
+                  <div class="flip-card-back">
+                      <h4 class="text-white">Programming Languages </h4>
+                      <div class="btn btn3 ">Bestseller</div> 
+                      <span class="text-white">Updated in March 2024</span>
+                    <p class="text-white">Learn Languages Like </p>
+                    <ul class="text-white">
+                      <li>Java</li>
+                      <li>Phython</li>
+                      <li>Vanilla JS</li>
+                      <li>Hybernet</li>
+                    </ul>
+                    <div class="btn btn4">ADD TO CART</div>
+                  </div>
+              </div>
+          </div>
+
+          
+      </div><!-- col -->
+
+      <div class="col col-12 col-sm-12 col-md-6 col-lg-3 g-3">
+
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+               
+                 <div class="card flip" >
+                  <img src="Full-Stack-Course-Training-in-Jalandhar.png" class="card-img-top" alt="..." height="300px">
+                  <div class="card-body text-start">
+                    <h5 class="card-title">Full Stack Developer</h5>
+                    <p class="card-text"><b>Skills You Gain:</b>Java Programming,Computer Programming,Alogrithms,Javascript</p>
+                    <p><i class="fa-solid fa-star" style="color: #FFD43B;"></i> 4.9 (4k reviews)</p>
+                    <p>Intermediate Specilaization 3-6 months </p>
+                  </div>
+                </div>
+                 <!-- card -->
+                </div>
+                <div class="flip-card-back">
+                    <h4 class="text-white">Programming Languages </h4>
+                    <div class="btn btn3 ">Bestseller</div> 
+                    <span class="text-white">Updated in March 2024</span>
+                  <p class="text-white">Learn Languages Like </p>
+                  <ul class="text-white">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                    <li>MEAN Stack</li>
+                  </ul>
+                  <div class="btn btn4">ADD TO CART</div>
+                </div>
+            </div>
+        </div>
+
+        
+    </div><!-- col -->
+
+    <div class="col col-12 col-sm-12 col-md-6 col-lg-3 g-3">
+
+      <div class="flip-card">
+          <div class="flip-card-inner">
+              <div class="flip-card-front">
+             
+               <div class="card flip" >
+                <img src="webdev-bootcamp-banner.png" class="card-img-top" alt="..." height="300px">
+                <div class="card-body text-start">
+                  <h5 class="card-title">Web Devloper Bootcamp</h5>
+                  <p class="card-text"><b>Skills You Gain:</b>MERN Stack,LAMP Stack,MEVN Stack</p>
+                  <p><i class="fa-solid fa-star" style="color: #FFD43B;"></i> 4.6 (2.6k reviews)</p>
+                  <p>Intermediate Specilaization 3-6 months </p>
+                </div>
+              </div>
+               <!-- card -->
+              </div>
+              <div class="flip-card-back">
+                  <h4 class="text-white">Programming Languages </h4>
+                  <div class="btn btn3 ">Bestseller</div> 
+                  <span class="text-white">Updated in April 2024</span>
+                <p class="text-white">Learn Languages Like </p>
+                <ul class="text-white">
+                  <li>Ruby</li>
+                  <li>Phython</li>
+                  <li>SQL</li>
+                  <li>Rail</li>
+                </ul>
+                <div class="btn btn4">ADD TO CART</div>
+              </div>
+          </div>
+      </div>
+
+      
+  </div><!-- col -->
+
+  <div class="col col-12 col-sm-12 col-md-6 col-lg-3 g-3">
+
+    <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+           
+             <div class="card flip" >
+              <img src="faang-interview-preparation.jpg" class="card-img-top" alt="..." height="300px">
+              <div class="card-body text-start">
+                <h5 class="card-title">FAANG Interviews</h5>
+                <p class="card-text"><b>Skills You Gain:</b>Techincal,Non-Technical Skills</p>
+                <p><i class="fa-solid fa-star" style="color: #FFD43B;"></i> 4.7 (2.9k reviews)</p>
+                <p>Intermediate Specilaization 3-6 months </p>
+              </div>
+            </div>
+             <!-- card -->
+            </div>
+            <div class="flip-card-back">
+                <h4 class="text-white">Topics We Cover </h4>
+                <div class="btn btn3 ">Bestseller</div> 
+                <span class="text-white">Updated in March 2024</span>
+              <p class="text-white">Learn Languages Like </p>
+              <ul class="text-white">
+                <li>Data Structure and Algorithms</li>
+                <li>System Design</li>
+                <li> Coding Skill</li>
+                <li>Hybernet</li>
+              </ul>
+              <div class="btn btn4">ADD TO CART</div>
+            </div>
+        </div>
+    </div>
+
+    
+</div><!-- col -->
+  </div>
+</div>
+
+<!-- search -->
+
+<div class="container mt-5 pt-4 text-center">
+  <h2 class="fw-bolder">Search <span style=" color: #020aff">400+</span> Courses in Eager To Learn</h2>
+</div>
+<div class="container mt-5 ">
+  <div class="input-group flex-nowrap">
+    <span class="input-group-text borderout" id="addon-wrapping" style="cursor: pointer;"><i class="fa-solid fa-magnifying-glass"></i></span>
+    <input type="text" class="form-control" placeholder="Search Courses" aria-label="Username" aria-describedby="addon-wrapping">
+  </div>
+</div>
+
+
+
+
+
+
+  <!-- scholarship -->
+
+  <div class="container mt-5 pt-4 text-center">
+    <h2 class="fw-bolder">India's <span style=" color: #020aff">Largest</span> Scholarship and Learning Platform</h2>
+    <h4>Connecting Scholarship Seekers with Scholarship Providers.</h4>
+</div>
+
+<div class="container-fluid">
+    <div class="row text-center">
+        <div class="col col-12 col-sm-12 col-md-6 col-lg-3 ">
+            <body>
+                <div id="card1-area">
+                    <div class="wrapper1">
+                        <div class="box-area">
+                            <div class="box">
+                                <img alt="" src="https://img.freepik.com/premium-photo/man-server-room-laptop-programming-system-management-data-center-solution-coding-night-business-person-engineering-computer-information-technology-power-check-basement_590464-219040.jpg" width="100%" height="100%">
+                                <div class="overlay">
+                                    <h4>Eager to learn</h4>
+                                    <h6>Download App Now</h6>
+                                    <p>For Instant Answers</p>
+                                    <a href="#" style="color:  #0000fff7;">Explore Now<i class="fa-solid fa-arrow-right"  style="color:  #0000fff7;"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>   <!-- col -->
+         
+
+            <div class="col col-12 col-sm-12 col-md-6 col-lg-3 ">
+                <body>
+                    <div id="card1-area">
+                        <div class="wrapper1">
+                            <div class="box-area">
+                                <div class="box">
+                                    <img alt="" src="https://media.istockphoto.com/id/1347879996/photo/shot-of-a-young-woman-using-a-laptop-while-working-in-a-server-room.webp?b=1&s=170667a&w=0&k=20&c=eToWeYW4mV0HB_5p_cwv2K8x5joFWSawG8bIbxhnP3w=" width="100%" height="100%">
+                                    <div class="overlay">
+                                        <h4>Eager to learn</h4>
+                                        <h6>Master Class To Crack</h6>
+                                        <p>Interviews</p>
+                                        <a href="#" style="color:  #0000fff7;">Explore Now<i class="fa-solid fa-arrow-right"  style="color:  #0000fff7;"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>   <!-- col -->
+
+
+                <div class="col col-12 col-sm-12 col-md-6 col-lg-3 ">
+                    <body>
+                        <div id="card1-area">
+                            <div class="wrapper1">
+                                <div class="box-area">
+                                    <div class="box ">
+                                        <img alt="" src="https://media.istockphoto.com/id/1460835820/photo/young-successful-indian-programmer-working-inside-modern-development-company-man-using-laptop.webp?b=1&s=170667a&w=0&k=20&c=wJ2ua6-ztVn7G7xEWU2drB4BSl59Dd_yl1tknTGbwxs=" width="100%" height="100%">
+                                        <div class="overlay">
+                                            <h4>Eager to learn</h4>
+                                            <h6>Complete To Crack</h6>
+                                            <p>FANGS Interviews</p>
+                                            <a href="#" style="color:  #0000fff7;">Explore Now<i class="fa-solid fa-arrow-right"  style="color:  #0000fff7;"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>   <!-- col -->
+
+                    <div class="col col-12 col-sm-12 col-md-6 col-lg-3 ">
+                        <body>
+                            <div id="card1-area">
+                                <div class="wrapper1">
+                                    <div class="box-area">
+                                        <div class="box">
+                                            <img alt="" src="https://t4.ftcdn.net/jpg/07/16/67/23/360_F_716672380_3Lg2vxEZJbrjlka1oZnoysYweq9mkF7Q.jpg" width="100%" height="100%">
+                                            <div class="overlay">
+                                                <h4>Eager to learn</h4>
+                                                <h6>Download App Now</h6>
+                                                <p>Get Internships</p>
+                                                <a href="#" style="color:  #0000fff7;">Explore Now<i class="fa-solid fa-arrow-right"  style="color:  #0000fff7;"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>   <!-- col -->
+                       <div class="btns mt-5">
+                        <div class="btn btn2 rounded-pill">Check For Scholarship</div>
+                        <div class="btn btn2 rounded-pill">Apply For Scholarship</div>
+                       </div>
+    </div>
+</div>
+
+
+<!-- company -->
+      <div class="container-fluid companys mt-5 pt-4">
+      
+  <marquee behavior="scroll" direction="" class="big">
+    <img src="Adobe Inc. A.png" alt="" width="150px">
+    <img src="PhonePe.png" alt="" width="200px">
+    <img src="PayPal New 2023.png" alt="" width="200px">
+    <img src="Cisco Systems.png" alt="" width="150px">
+    <img src="Byjus.png" alt="" width="150px">
+    <img src="Dell.png" alt="" width="150px">
+    <img src="icons8-fedex-480.png" alt="" width="150px">
+    <img src="Netflix Wordmark.png" alt="" width="150px">
+    <img src="HP 2012.png" alt="" width="120px">
+  </marquee>
+     
+      </div>
+      <!-- goals -->
+      <div class="container text-center mt-5 pt-5">
+        <h2 class="fw-bolder">Reach your goals</h2>
+        <div class="line rounded-circle mx-auto" style="width: 170px ;height:5px;"></div>
+      </div>
+      <div class="container mt-5 pt-4">
+        <div class="row text-center">
+          <div class="col col-12 col-sm-12 col-md-6 col-lg-4">
+            <i class="fa-solid fa-graduation-cap grwicon" style="color: #020aff;"></i>
+            <h3>Expand your knowledge and sharpen skills</h3>
+          </div>
+          <div class="col col-12 col-sm-12 col-md-6 col-lg-4">
+            <i class="fa-solid fa-people-group grwicon" style="color:#020aff;"></i>
+            <h3>Demonstrate your expertise and show value</h3>
+          </div>
+          <div class="col col-12 col-sm-12 col-md-6 col-lg-4">
+            <i class="fa-solid fa-arrow-trend-up grwicon" style="color: #020aff;"></i>
+            <h3>Maximize your potential and move ahead</h3>
+          </div>
+
+
+        </div>
+      </div>
+    
+<!-- map -->
+<div class="container text-center mt-5">
+  <h2 class="fw-bolder">Directions</h2>
+  <div class="line rounded-circle mx-auto" style="width: 170px ;height:5px;"></div>
+</div>
+   <div class="container-fluid mt-5 pt-3">
+<div class="row">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d13773.944740315026!2d78.00801617882742!3d30.337129667306524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s4acheviers!5e0!3m2!1sen!2sin!4v1712567844702!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+   </div>
+
+
+
+   <div class="container mt-5 ">
+    <div class="row text-center divide">
+      <div class="col col-12 col-sm-12 col-md-6">
+        <h3 class="fw-bold">Offline Benefits</h3>
+        <ul>
+          <li>Face-to-face interaction.</li>
+          <li>Reduced distraction.</li>
+          <li>Better assessment.</li>
+          <li>Hands-on learning.</li>
+          <li>Improve time management.</li>
+        </ul>
+      </div>
+      <div class="col col-12 col-sm-12 col-md-6 difference">
+        <h3 class="fw-bold">Online Benefits</h3>
+        <ul>
+          <li> Makes Scheduling Easier</li>
+          <li>Online Coaching Brings Location Convenience</li>
+          <li>Greater Access To Amazing Coaches</li>
+          <li>Online Coaching Is Accessible Almost Anywhere</li>
+          <li> In Emergencies Coaching Online Is Very Accessible</li>
+        </ul>
+      </div>
+    </div>
+   </div>
+<!-- paid or Unpaid -->
+<div class="container text-center mt-5 pt-5">
+  <h2 class="fw-bolder">Choose Your Plans</h2>
+  <div class="line rounded-circle mx-auto" style="width: 170px ;height:5px;"></div>
+</div>
+<div class="container mt-5 pt-3">
+<div class="row text-center justify-content-around">
+  <div class="col col-12 col-sm-12 col-md-6 col-lg-4 g-3 yell">
+<h3  class="fw-semibold">Single Learn Programm</h3>
+<p>Learn a single topic or skill and earn a credential.</p>
+
+<h4><del>₹4,062 – ₹6,549 /month</del></h4>
+<h4><b class="freee">Free</b></h4>
+<h5>Visit an individual course or Specialization page to purchase.</h5>
+
+<ul  class="list-unstyled">
+  <li class="lnheight"><i class="fa-solid fa-check" style="color: #020aff;"></i>Access all courses within the learning program</li>
+  <li class="lnheight"><i class="fa-solid fa-check" style="color: #020aff;"></i>Earn a certificate upon completion</li>
+</ul>
+  </div>
+
+  <div class="col col-12 col-sm-12 col-md-6 col-lg-4 g-3  yell">
+    <h3 class="fw-semibold">Eager To Learn Plus Monthly</h3>
+    <p>Complete multiple courses and earn credentials in the short term</p>
+    
+    <h4>₹4,891 /month</h4>
+   <div class="btn btnblu">Start Free Trial</div>
+   <div class="btn"><b class="cancle">Cancle AnyTime</b></div>
+    
+    <ul  class="list-unstyled">
+      <li class="lnheight"><i class="fa-solid fa-check" style="color: #020aff;"></i>Access 7,000+ courses and Specializations from 170+ leading companies and universities</li>
+      <li class="lnheight"><i class="fa-solid fa-check" style="color: #020aff;"></i>Earn unlimited certificates</li>
+      <li class="lnheight"><i class="fa-solid fa-check" style="color: #020aff;"></i>Learn job-relevant skills and tools with 1,000+ applied projects and hands-on labs from industry experts</li>
+      <li class="lnheight"><i class="fa-solid fa-check" style="color: #020aff;"></i>Choose from more than 15 Professional Certificate programs from industry leaders like Google, Facebook, and more</li>
+    </ul>
+      </div>
+
+      <div class="col col-12 col-sm-12 col-md-6 col-lg-4 g-3  yell">
+        <h3  class="fw-semibold">Eager To Learn Plus Annual</h3>
+        <p>Combine flexibility and savings with long-term learning goals</p>
+        
+        <h4>₹33,079 /year</h4>
+        <div class="btn btnblue">Ty Annual Plan</div>
+        <p>14-day money-back guarantee
+
+        </p>
+        <ul  class="list-unstyled">
+          <li class="lnheight"><i class="fa-solid fa-check" style="color: #020aff;"></i>Save when you pay up front for the year</li>
+          <li class="lnheight"><i class="fa-solid fa-check" style="color: #020aff;"></i>Enjoy maximum flexibility to achieve work/life balance and learn at your own pace</li>
+        </ul>
+          </div>
+
+
+
+
+
+
+</div>
+</div>
+
+<!-- certifactes -->
+
+<div class="container text-center mt-5">
+  <h2 class="fw-bolder">Earn Certificates</h2>
+  <div class="line rounded-circle mx-auto" style="width: 170px ;height:5px;"></div>
+</div>
+
+<div class="container mt-5 pt-4">
+  <div class="row">
+    <div class="col col-12 col-sm-12 col-md-6">
+      <h4 style="color: rgba(0, 0, 0, 0.69);">AFFORDABLE PROGRAMS</h4>
+      <h3>Accessible learning from top companies and universities</h3>
+      <p>Get job-ready with affordable, career-aligned training programs taught by expert instructors from top companies and universities. Start pursuing your career dreams today with programs starting at $49 USD per month and a 7 day free trial.</p>
+    </div>
+    <div class="col col-12 col-sm-12 col-md-6">
+      <img src="CourseraCertificate.png" alt="" class="img-fluid">
+    </div>
+  </div>
+</div>
+
+<!-- Subscribe -->
+<div class="container text-center mt-5">
+  <h2 class="fw-bolder">Subscribe and start learning today</h2>
+  <div class="line rounded-circle mx-auto" style="width: 170px ;height:5px;"></div>
+</div>
+
+<div class="container mt-5 pt-4">
+  <div class="row">
+    <div class="col col-12 col-sm-12 col-md-6 col-lg-4 g-3 subs">
+<h5>Step 1</h5>
+<h4 class="fw-bold">Choose a subscription</h4>
+<h5>Find the right Learning Subscription for your needs.</h5>
+    </div>
+    <div class="col col-12 col-sm-12 col-md-6 col-lg-4 g-3 subs">
+      <h5>Step 2</h5>
+      <h4 class="fw-bold">Take desired courses</h4>
+      <h5>Select a personalized Learning Path and advance at your own pac.</h5>
+          </div>
+          <div class="col col-12 col-sm-12 col-md-6 col-lg-4 g-3 subs">
+            <h5>Step 3</h5>
+            <h4 class="fw-bold">Celebrate your expertise</h4>
+            <h5>Earn recognition for your accomplishments and showcase capabilities by becoming OpenText Certified.</h5>
+                </div>
+
+
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<!-- teachers -->
+   <div class="container text-center mt-5">
+    <h2 class="fw-bolder">Our Teachers</h2>
+    <div class="line rounded-circle mx-auto" style="width: 170px ;height:5px;"></div>
+ </div>
+
+<div class="container mt-5 pt-5">
+<div class="row">
+  <div class="col col-12 col-sm-12 col-lg-8 offset-lg-2 text-center">
+      <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="testimonial-wrapper">
+                  <div class="row">
+                    <div class="col col-12 col-sm-12">
+                      <img src="testimonials-3.jpg" alt="" class="img-fluid rounded-circle">
+                    </div>
+                    <div class="username">
+                      <h3 class="fs-2">Martins Johe</h3>
+                      <span class="fs-5">Fastcompany ltd.</span>
+                      <p class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure laborum consequuntur voluptates quam maiores atque veritatis adipisci delectus laboriosam, modi dolor magni mollitia. Sunt voluptatum, ipsum tempora voluptates odit quis?</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+              <div class="testimonial-wrapper">
+                  <div class="row">
+                    <div class="col col-12 col-sm-12">
+                      <img src="testimonials-2.jpg" alt="" class="img-fluid rounded-circle">
+                    </div>
+                    <div class="username">
+                      <h3 class="fs-2">Martins Johe</h3>
+                      <span class="fs-5">Fastcompany ltd.</span>
+                      <p class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure laborum consequuntur voluptates quam maiores atque veritatis adipisci delectus laboriosam, modi dolor magni mollitia. Sunt voluptatum, ipsum tempora voluptates odit quis?</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+              <div class="testimonial-wrapper">
+                  <div class="row">
+                    <div class="col col-12 col-sm-12">
+                      <img src="testimonials-4.jpg" alt="" class="img-fluid rounded-circle">
+                    </div>
+                    <div class="username">
+                      <h3 class="fs-2">Martins Johe</h3>
+                      <span class="fs-5">Fastcompany ltd.</span>
+                      <p class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure laborum consequuntur voluptates quam maiores atque veritatis adipisci delectus laboriosam, modi dolor magni mollitia. Sunt voluptatum, ipsum tempora voluptates odit quis?</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+              <div class="testimonial-wrapper">
+                  <div class="row">
+                    <div class="col col-12 col-sm-12">
+                      <img src="testimonials-1.jpg" alt="" class="img-fluid rounded-circle">
+                    </div>
+                    <div class="username">
+                      <h3 class="fs-2">Martins Johe</h3>
+                      <span class="fs-5">Fastcompany ltd.</span>
+                      <p class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure laborum consequuntur voluptates quam maiores atque veritatis adipisci delectus laboriosam, modi dolor magni mollitia. Sunt voluptatum, ipsum tempora voluptates odit quis?</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+            <i class="fa-solid fa-angle-left than"></i>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+            <i class="fa-solid fa-angle-right than"></i>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+    
+  </div>   <!-- col --> 
+</div><!-- row -->
+</div>   <!-- container -->
+
+<!-- form -->
+<div class="container text-center mt-5">
+  <h2 class="fw-bolder">Registration Form</h2>
+  <div class="line rounded-circle mx-auto" style="width: 170px ;height:5px;"></div>
+</div>
+
+
+
+<div class="container mt-5 pt-4">
+    <form class="row g-3">
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Name</label>
+          <input type="text" class="form-control" id="inputEmail4" placeholder="Enter Your Name">
+        </div>
+        <div class="col-md-6">
+          <label for="inputPassword4" class="form-label">Password</label>
+          <input type="password" class="form-control" id="inputPassword4"placeholder="Enter Your Password">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">Address</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress2" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputAddress2" placeholder="Enter Your Email">
+        </div>
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">City</label>
+          <input type="text" class="form-control" id="inputCity"placeholder="Enter Your City">
+        </div>
+        <div class="col-md-4">
+          <label for="inputState" class="form-label">State</label>
+          <select id="inputState" class="form-select">
+            <option selected>Choose...</option>
+            <option>...</option>
+          </select>
+        </div>
+        <div class="col-md-2">
+          <label for="inputZip" class="form-label">Pin Code</label>
+          <input type="text" class="form-control" id="inputZip" placeholder="Enter Your Pin Code">
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+              Check me out
+            </label>
+          </div>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Sign in</button>
+        </div>
+      </form>
+</div>
+<div class="container mt-5 pt-4">
+  <div class="row">
+      <img src="5e9d97cba3aba1587386315Footer.png" alt="" class="img-fluid">
+  </div>
+</div>
+
+<!-- Review -->
+<div class="container text-center mt-5">
+  <h2 class="fw-bolder">Review</h2>
+  <div class="line rounded-circle mx-auto" style="width: 170px ;height:5px;"></div>
+</div>
+<div class="container mt-5 pt-4">
+  <div class="row">
+    <div class="col col-12 col-sm-12 col-md-6 col-lg-3 g-2">
+      <div class="card hovercard" >
+        <img src="cheerful-indian-businessman-smiling-closeup-portrait-jobs-career-campaign.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">A wonderful experience and a handy course. The lecturers are great with a very nice way on interacting. Thank you for all your cooperation. Hope to see more of you in future. Thank you once again.</p>
+          <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+          <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+          <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+          <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+          <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+        </div>
+      </div>
+
+    </div>
+
+
+
+    <div class="col col-12 col-sm-12 col-md-6 col-lg-3 g-2">
+      <div class="card hovercard">
+        <img src="young-handsome-man-wearing-casual-tshirt-blue-background-happy-face-smiling-with-crossed-arms-looking-camera-positive-person.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">A great introductory course to the world of online teaching and learning. I am grateful to have undergone this course, especially considering the current circumstances. Highly recommended.</p>
+          <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+          <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+          <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+          <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+        </div>
+      </div>
+
+    </div>
+    <div class="col col-12 col-sm-12 col-md-6 col-lg-3 g-2">
+      <div class="card hovercard" >
+        <img src="66609.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">This course was excellent, the amount of information and tools they provide us are wonderful. The Simon and Negin,  Course Instructors show great knowledge and professionalism. Thanks for everything.</p>
+          <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+          <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+          <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+          <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+          <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="col col-12 col-sm-12 col-md-6 col-lg-3 g-2">
+      <div class="card hovercard" >
+        <img src="https://img.freepik.com/free-photo/young-beautiful-woman-pink-warm-sweater-natural-look-smiling-portrait-isolated-long-hair_285396-896.jpg?w=996" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">If a person takes the time to read all of the attached pdfs and website you can get quite a detailed knowledge of this topic.The course did a very good job of mirroring the principles that it taught</p>
+          <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+          <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+          <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+          <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+          <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+        </div>
+      </div>
+
+    </div>
+
+
+
+
+
+
+
+  </div>
+</div>
+
+
+
+  
+<!-- Footer -->
+<footer>
+ <div class="container-fluid end">
+<div class="row text-center">
+  <div class="col col-12 col-sm-12 col-md-6 col-lg-3 g-3">
+    <h3>Eager To Learn</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At aut, aliquid aliquam earum sequi sit inventore fugit repellendus, quo optio voluptatem asperiores blanditiis dicta corporis, deleniti voluptas obcaecati minus laboriosam.</p>
+  </div>
+  <div class="col col-12 col-sm-12 col-md-6 col-lg-3 yash-Products g-3">
+    <h3>Expertise In</h3>
+    <p><a href="#" class="text-white text-decoration-none" >Full Stack Devlopement</a></p>
+    <p><a href="#" class="text-white text-decoration-none" >Cyber Security</a></p>
+    <p><a href="#" class="text-white text-decoration-none" >AI Devlopement</a></p>
+    <p><a href="#" class="text-white text-decoration-none" >Big Data Analytics</a></p>
+  </div>
+
+
+  <div class="col col-12 col-sm-12 col-md-6 col-lg-3 yash-Products g-3">
+    <h3>Centers</h3>
+    <p><a href="#" class="text-white text-decoration-none" >Noida</a></p>
+    <p><a href="#" class="text-white text-decoration-none" >Dehradun</a></p>
+    <p><a href="#" class="text-white text-decoration-none" >Delhi</a></p>
+    <p><a href="#" class="text-white text-decoration-none" >Mumbai</a></p>
+  </div>
+
+  <div class="col col-12 pb-3 col-sm-12  col-sm-pb-3 col-md-6 col-lg-3 g-3">
+    <h3>FOLLOW US</h3>
+    <div class="ic text-center">
+      <a class="socialContainer containerOne" href="https://instagram.com/" target="_blank">
+        <svg viewBox="0 0 16 16" class="socialSvg instagramSvg"> <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"></path> </svg>
+      </a>
+      
+      <a class="socialContainer containerTwo"  href="https://twitter.com/" target="_blank">
+        <svg viewBox="0 0 16 16" class="socialSvg twitterSvg"> <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"></path> </svg>              </a>
+        
+      <a class="socialContainer containerThree" href="https://in.linkedin.com/" target="_blank">
+        <svg viewBox="0 0 448 512" class="socialSvg linkdinSvg"><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path></svg>
+      </a>
+      
+      <a class="socialContainer containerFour"  href="https://whatsapp.com/" target="_blank">
+        <svg viewBox="0 0 16 16" class="socialSvg whatsappSvg"> <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"></path> </svg>
+      </a>
+    </div>     
+
+  </div>
+ </div>
+</div>
+
+<div class="end2 p-3">
+  <div class=" container-fluid text-center">
+        <p>Copyright &copy; 2024 <a class="y-blnk" href="" target="_blank">Eager To Learn</a> All Right Resereved</p>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</footer> 
+<!-- Footer -->
+
+
+</body>
+</html>
